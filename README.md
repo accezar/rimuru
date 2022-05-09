@@ -1,6 +1,6 @@
 # Micro Playground
 
-POC evaluating microfrontend and state management with Nextjs and turborepo.
+POC evaluating microfrontend and state management with Nextjs + Zustand.
 
 ### Apps and Packages
 
