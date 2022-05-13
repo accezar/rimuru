@@ -4,17 +4,14 @@ Graphic tool for creating UI components.
 
 This project is a study case evaluating some 2D Canvas libraries, monorepo clients and react architectures and patterns in order to create an online editor.
 
-
-
 ### Project Setup
 
 This project was bootstraped with TurboRepo.
 
-- `editor`: a [Next.js](https://nextjs.org) app representing the entrypoint route for the Editor Module.
-- `settings`: another [Next.js](https://nextjs.org) app representing the entrypoint route for the Settings Module.
-- `primitives`: a stub React component library shared by `ui` library and any module application.
-- `ui`: a stub React component library shared by both `editor` and `settings` applications.
-- `config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
+- `editor`: a [Next.js](https://nextjs.org) app representing a graphic editor app.
+- `settings`: another [Next.js](https://nextjs.org) app representing app main settings.
+- `ui`: a React component library shared by both `editor` and `settings` applications
+- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
