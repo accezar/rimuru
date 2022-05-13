@@ -6,7 +6,7 @@ POC evaluating microfrontend and state management with Nextjs + Zustand.
 
 - `editor`: a [Next.js](https://nextjs.org) app representing a graphic editor app.
 - `settings`: another [Next.js](https://nextjs.org) app representing app main settings.
-- `ui`: a stub React component library shared by both `web` and `docs` applications
+- `ui`: a React component library shared by both `editor` and `settings` applications
 - `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
