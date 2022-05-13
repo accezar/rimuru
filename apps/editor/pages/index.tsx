@@ -22,6 +22,7 @@ export default function Web() {
 
   return (
     <Flex css={{ flexDirection: "column" }}>
+      <Button>Test Ui Package Button</Button>
       <Flex css={{ flexDirection: "column" }}>
         <MainMenu>
           <a href="/#">Projeto</a>
