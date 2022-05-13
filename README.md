@@ -1,8 +1,12 @@
-# Micro Playground
+# Rimuru
 
-POC evaluating microfrontend and state management with Nextjs + Zustand.
+Graphic tool for creating UI components.
 
-### Apps and Packages
+This project is a study case evaluating some 2D Canvas libraries, monorepo clients and react architectures and patterns in order to create an online editor.
+
+### Project Setup
+
+This project was bootstraped with TurboRepo.
 
 - `editor`: a [Next.js](https://nextjs.org) app representing a graphic editor app.
 - `settings`: another [Next.js](https://nextjs.org) app representing app main settings.

@@ -1,12 +1,18 @@
 # Tasks, questions, topics for evaluation
 
-- [ ] How does versioning works inside turborepo? (Check turborepo)
-- [ ] How to generate auto changelog? (Check turborepo)
-- [ ] How to automate releases? (Check turborepo)
+- [x] How does versioning works inside turborepo?
+  - There is a example from turbo repo staff using changesets.
+- [x] How to generate auto changelog?
+  - There is a example from turbo repo staff using changesets.
+- [x] How to automate releases?
+  - There is a example from turbo repo staff using changesets.
 - [ ] Remote cache only works with Vercel?
 - [ ] Best way to do state management with nextjs:
-- [ ] First of all define what parts of state will be global/shared and what will be scoped to page or module.
-- [ ] Always define and document the state strategy as part of solution.
-- [ ] Jotai - library to test.
-- [ ] Zustand - library to test.
-- [ ] Context API (focus on architecture and documentation - test diferent patterns)
+  - [ ] First must look for the interface and draft the State object structure.
+    - What parts of state will be global/shared?
+    - What will be scoped to page or module?
+    - Scopes for the components.
+    - Check libraries:
+      - [ ] Jotai - library to test.
+      - [ ] Zustand - library to test.
+      - [ ] Context API (focus on architecture and documentation - test diferent patterns)
