@@ -11,6 +11,9 @@ import {
   WorkspaceCanvasWrapper,
   WorkspacePanelWrapper,
   ToolBar,
+  Shell,
+  ShellHeader,
+  ShellContent,
 } from "../components";
 
 const Flex = styled("div", {
@@ -21,9 +24,8 @@ export default function Web() {
   globalStyles();
 
   return (
-    <Flex css={{ flexDirection: "column" }}>
-      <Button>Test Ui Package Button</Button>
-      <Flex css={{ flexDirection: "column" }}>
+    <Shell>
+      <ShellHeader>
         <MainMenu>
           <a href="/#">Projeto</a>
           <a href="/#">Editar</a>
@@ -31,21 +33,23 @@ export default function Web() {
           <a href="/#">Ajuda</a>
         </MainMenu>
         <ToolBar>Toolbar</ToolBar>
-      </Flex>
+      </ShellHeader>
 
-      <Workspace>
-        <WorkspacePanelWrapper>
-          <PagesPanel />
-          <LayersPanel />
-        </WorkspacePanelWrapper>
-        <WorkspaceCanvasWrapper>
-          <CanvasTabBar />
-          <MainCanvasNoSSR />
-        </WorkspaceCanvasWrapper>
-        <WorkspacePanelWrapper>
-          <LayerEditorPanel>Layer Editor</LayerEditorPanel>
-        </WorkspacePanelWrapper>
-      </Workspace>
-    </Flex>
+      <ShellContent>
+        <Workspace>
+          <WorkspacePanelWrapper>
+            <PagesPanel />
+            <LayersPanel />
+          </WorkspacePanelWrapper>
+          <WorkspaceCanvasWrapper>
+            <CanvasTabBar />
+            {/* <MainCanvasNoSSR /> */}
+          </WorkspaceCanvasWrapper>
+          <WorkspacePanelWrapper>
+            <LayerEditorPanel />
+          </WorkspacePanelWrapper>
+        </Workspace>
+      </ShellContent>
+    </Shell>
   );
 }

@@ -28,7 +28,10 @@ export const {
 });
 
 export const globalStyles = globalCss({
-  "html, body, #root": {
+  "@import": [
+    "url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap')",
+  ],
+  "html, body, #root, #__next": {
     position: "absolute",
     top: 0,
     left: 0,
@@ -37,10 +40,12 @@ export const globalStyles = globalCss({
     height: "100%",
     width: "100%",
     overflow: "hidden",
+    fontFamily: "Nunito",
   },
 
   "*": {
     margin: 0,
+    fontSize: 12,
     padding: 0,
   },
 });

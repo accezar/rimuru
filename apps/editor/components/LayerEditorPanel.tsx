@@ -1,9 +1,9 @@
-import { styled } from "@rimuru/ui";
+import { WorkspacePanelItem } from "./Workspace";
 
-export const LayerEditorPanel = styled("section", {
-  width: "100%",
-  height: "inherit",
-  background: "pink",
-});
+export const LayerEditorPanel = () => (
+  <WorkspacePanelItem title="Layer Editor">
+    Layer Editor Content
+  </WorkspacePanelItem>
+);
 
 export default LayerEditorPanel;

@@ -7,12 +7,13 @@
 - [x] How to automate releases?
   - There is a example from turbo repo staff using changesets.
 - [ ] Remote cache only works with Vercel?
-- [ ] Best way to do state management with nextjs:
+- [ ] Canvas x SVG libs
+- [ ] Strategy to store big state data ()
   - [ ] First must look for the interface and draft the State object structure.
     - What parts of state will be global/shared?
+    - Best techonologies to virtualize and sync?
     - What will be scoped to page or module?
-    - Scopes for the components.
     - Check libraries:
-      - [ ] Jotai - library to test.
-      - [ ] Zustand - library to test.
+      - [ ] Jotai? - macro state
+      - [ ] Zustand? - almost like context + hooks.
       - [ ] Context API (focus on architecture and documentation - test diferent patterns)
